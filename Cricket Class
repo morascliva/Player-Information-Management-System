@@ -1,0 +1,16 @@
+
+public class Cricket extends Player {
+	int wickets;
+    int runs;
+ 
+    
+    public Cricket(int wickets,int runs,String name,int age, double  height,String country){
+    	super(name,age,height,country);
+    	this.wickets=wickets;
+    	this.runs=runs;
+    }
+    
+    void displayCricketStats() {
+    	System.out.println("Cricket Details:"+" "+this.wickets+" "+this.runs+" " +this.name+" "+ this.age +" "+ this.height);
+    }
+}
