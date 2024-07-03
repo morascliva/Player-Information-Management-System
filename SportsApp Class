@@ -1,0 +1,10 @@
+
+public class SportsApp {
+public static void main(String [] args) {
+	Cricket c = new Cricket( 3,5," Virat", 24, 5.5,"India");
+	c.displayCricketStats();
+
+	Football f= new Football(3,"goalie"," Anish", 24, 5.5,"India");
+    f.displayFootballStats(); 
+}
+}
