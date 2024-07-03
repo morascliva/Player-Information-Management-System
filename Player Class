@@ -1,0 +1,38 @@
+
+public class Player {
+ String name;
+ int age;
+ double  height;
+ String country;
+ 
+ public  Player(String name,int age, double  height,String country){
+	 this.name=name;
+	 this.age= age;
+	 this.height=height;
+	 this.country=country;
+	 
+ }
+ 
+ public String getName() {
+     return this.name;
+ }
+ 
+ public int getAge() {
+     return this.age;
+ }
+ 
+ public double getHeight() {
+     return this.height;
+ }
+ 
+ public String getCountry() {
+     return this.country;
+ }
+ 
+ 
+ void displayinfo () {
+	 System.out.println("PLayer Details:"+ " "+this.name+" "+this.age+" "+ this.height+ this.country);
+ }
+
+ 
+}
