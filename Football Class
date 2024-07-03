@@ -1,0 +1,15 @@
+
+public class Football extends Player{
+	 int goals;
+	 String positions;
+	 
+	 public Football(int goals,String positions,String name,int age, double  height,String country) {
+		 super(name,age,height,country);
+		 this.goals=goals;
+		 this.positions=positions;
+	 }
+	 
+	 void displayFootballStats(){
+		 System.out.println("Football Details:"+" "+this.goals+" "+this.positions+" "+this.name+" "+this.age+" "+this.height);
+	 }
+}
